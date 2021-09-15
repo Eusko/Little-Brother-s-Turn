@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: Reggie Sprite Asset
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: Head
+    m_Hash: 130111906
+    m_CategoryList:
+    - m_Name: Normal
+      m_Hash: 640249298
+      m_Sprite: {fileID: 9126834360059454214, guid: 6ab8fcdd946ca814a90c4be9fef004ad,
+        type: 3}
+    - m_Name: Dead
+      m_Hash: 1293411866
+      m_Sprite: {fileID: -5302039334408189717, guid: 776556e0da1b8e14394588063f8ce5f5,
+        type: 3}
+  - m_Name: Body
+    m_Hash: 2073732236
+    m_CategoryList:
+    - m_Name: Normal
+      m_Hash: 640249298
+      m_Sprite: {fileID: 1334577569634514769, guid: 6ab8fcdd946ca814a90c4be9fef004ad,
+        type: 3}
+    - m_Name: Dead
+      m_Hash: 1293411866
+      m_Sprite: {fileID: -4450212917639640092, guid: 776556e0da1b8e14394588063f8ce5f5,
+        type: 3}

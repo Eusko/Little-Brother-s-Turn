@@ -1,0 +1,355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7257627937417779264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7257627937417779267}
+  - component: {fileID: 7257627937417779269}
+  - component: {fileID: 5717545356472897920}
+  - component: {fileID: 7257627937417779266}
+  m_Layer: 0
+  m_Name: LevelGeneration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7257627937417779267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7257627937417779264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7257627937418223337}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7257627937417779269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7257627937417779264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e56f77a2278a1ff409275a08af038d21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chunk: {fileID: 101929890942001058, guid: b22685bcf273b1a4a8f92e7a1371855b, type: 3}
+  createTransform: {fileID: 0}
+  initSpawn: {fileID: 0}
+--- !u!114 &5717545356472897920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7257627937417779264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a788ca05073017d469a342b162e44b5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolList:
+  - prefabName: chunk1
+    prefab: {fileID: 1025754388824634936, guid: d015cf64c8e662c408bc2218d602812e,
+      type: 3}
+    pooledAmount: 2
+    weight: 7
+    pooledObjs: []
+    rangeMin: 0
+    rangeMax: 0
+  - prefabName: chunk2
+    prefab: {fileID: 978304934106475443, guid: 76b97a7ed641bae41adcc7c6ab69a42e, type: 3}
+    pooledAmount: 2
+    weight: 7
+    pooledObjs: []
+    rangeMin: 0
+    rangeMax: 0
+  - prefabName: chunk3
+    prefab: {fileID: 101929890942001058, guid: b22685bcf273b1a4a8f92e7a1371855b, type: 3}
+    pooledAmount: 5
+    weight: 30
+    pooledObjs: []
+    rangeMin: 0
+    rangeMax: 0
+  - prefabName: chunk4
+    prefab: {fileID: 3083281560031541874, guid: 65a40d3df7235ff48a8cb1c3f6aee257,
+      type: 3}
+    pooledAmount: 2
+    weight: 10
+    pooledObjs: []
+    rangeMin: 0
+    rangeMax: 0
+  - prefabName: chunk5
+    prefab: {fileID: 3988025857748740202, guid: 928121ed86679734d9cf074a9f3ba554,
+      type: 3}
+    pooledAmount: 2
+    weight: 7
+    pooledObjs: []
+    rangeMin: 0
+    rangeMax: 0
+  - prefabName: chunk6
+    prefab: {fileID: 7283726914795109957, guid: c65304875028490409b3da0f863105ff,
+      type: 3}
+    pooledAmount: 2
+    weight: 7
+    pooledObjs: []
+    rangeMin: 0
+    rangeMax: 0
+  - prefabName: chunk7
+    prefab: {fileID: 7464141361013874762, guid: 64f9394c9e58f94479067fa00e84d2dc,
+      type: 3}
+    pooledAmount: 2
+    weight: 7
+    pooledObjs: []
+    rangeMin: 0
+    rangeMax: 0
+  - prefabName: chunk8
+    prefab: {fileID: 726679798128744654, guid: 55563e3966d156345b6e0f50dad526bb, type: 3}
+    pooledAmount: 2
+    weight: 7
+    pooledObjs: []
+    rangeMin: 0
+    rangeMax: 0
+  - prefabName: chunk9
+    prefab: {fileID: 3827457989258638348, guid: 5aed252a4bdec764fade17481eabbd5a,
+      type: 3}
+    pooledAmount: 2
+    weight: 7
+    pooledObjs: []
+    rangeMin: 0
+    rangeMax: 0
+  - prefabName: chunk10
+    prefab: {fileID: 7650477156661012390, guid: 3564928e55220214a9d83c110c0915c1,
+      type: 3}
+    pooledAmount: 2
+    weight: 7
+    pooledObjs: []
+    rangeMin: 0
+    rangeMax: 0
+  - prefabName: chunk11
+    prefab: {fileID: 2085845979020054146, guid: b6efc6e91c96fa948b92e79382c9d301,
+      type: 3}
+    pooledAmount: 2
+    weight: 7
+    pooledObjs: []
+    rangeMin: 0
+    rangeMax: 0
+  - prefabName: chunk12
+    prefab: {fileID: 1178167494431029450, guid: 2d1113c90641c9541bf9e25c5462acfe,
+      type: 3}
+    pooledAmount: 2
+    weight: 7
+    pooledObjs: []
+    rangeMin: 0
+    rangeMax: 0
+  - prefabName: chunk13
+    prefab: {fileID: 6623542550782726372, guid: 86afc48006166774c884e7f814feb548,
+      type: 3}
+    pooledAmount: 2
+    weight: 7
+    pooledObjs: []
+    rangeMin: 0
+    rangeMax: 1
+  accumSum: 1
+--- !u!114 &7257627937417779266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7257627937417779264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7326a1f00c1c5e9459ea2952318f9743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolList:
+  - tag: chunk1
+    prefab: {fileID: 1025754388824634936, guid: d015cf64c8e662c408bc2218d602812e,
+      type: 3}
+    sizeOfPool: 2
+    weight: 7
+    rangeMin: 0
+    rangeMax: 0
+  - tag: chunk2
+    prefab: {fileID: 978304934106475443, guid: 76b97a7ed641bae41adcc7c6ab69a42e, type: 3}
+    sizeOfPool: 2
+    weight: 7
+    rangeMin: 0
+    rangeMax: 0
+  - tag: chunk3
+    prefab: {fileID: 101929890942001058, guid: b22685bcf273b1a4a8f92e7a1371855b, type: 3}
+    sizeOfPool: 5
+    weight: 30
+    rangeMin: 0
+    rangeMax: 0
+  - tag: chunk4
+    prefab: {fileID: 3083281560031541874, guid: 65a40d3df7235ff48a8cb1c3f6aee257,
+      type: 3}
+    sizeOfPool: 2
+    weight: 10
+    rangeMin: 0
+    rangeMax: 0
+  - tag: chunk5
+    prefab: {fileID: 3988025857748740202, guid: 928121ed86679734d9cf074a9f3ba554,
+      type: 3}
+    sizeOfPool: 2
+    weight: 7
+    rangeMin: 0
+    rangeMax: 0
+  - tag: chunk6
+    prefab: {fileID: 7283726914795109957, guid: c65304875028490409b3da0f863105ff,
+      type: 3}
+    sizeOfPool: 2
+    weight: 7
+    rangeMin: 0
+    rangeMax: 0
+  - tag: chunk7
+    prefab: {fileID: 7464141361013874762, guid: 64f9394c9e58f94479067fa00e84d2dc,
+      type: 3}
+    sizeOfPool: 2
+    weight: 7
+    rangeMin: 0
+    rangeMax: 0
+  - tag: chunk8
+    prefab: {fileID: 726679798128744654, guid: 55563e3966d156345b6e0f50dad526bb, type: 3}
+    sizeOfPool: 2
+    weight: 7
+    rangeMin: 0
+    rangeMax: 0
+  - tag: chunk9
+    prefab: {fileID: 3827457989258638348, guid: 5aed252a4bdec764fade17481eabbd5a,
+      type: 3}
+    sizeOfPool: 2
+    weight: 7
+    rangeMin: 0
+    rangeMax: 0
+  - tag: chunk10
+    prefab: {fileID: 7650477156661012390, guid: 3564928e55220214a9d83c110c0915c1,
+      type: 3}
+    sizeOfPool: 2
+    weight: 7
+    rangeMin: 0
+    rangeMax: 0
+  - tag: chunk11
+    prefab: {fileID: 2085845979020054146, guid: b6efc6e91c96fa948b92e79382c9d301,
+      type: 3}
+    sizeOfPool: 2
+    weight: 7
+    rangeMin: 0
+    rangeMax: 0
+  - tag: chunk12
+    prefab: {fileID: 1178167494431029450, guid: 2d1113c90641c9541bf9e25c5462acfe,
+      type: 3}
+    sizeOfPool: 2
+    weight: 7
+    rangeMin: 0
+    rangeMax: 0
+  - tag: chunk13
+    prefab: {fileID: 6623542550782726372, guid: 86afc48006166774c884e7f814feb548,
+      type: 3}
+    sizeOfPool: 2
+    weight: 7
+    rangeMin: 0
+    rangeMax: 0
+  accumSum: 1
+--- !u!1 &7257627937418223334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7257627937418223337}
+  - component: {fileID: 7257627937418223336}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7257627937418223337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7257627937418223334}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7257627937936081488}
+  - {fileID: 7257627937417779267}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7257627937418223336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7257627937418223334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 692acd0ff6ba6184cbabe1b9743a3e20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &7257627937936081489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7257627937936081488}
+  - component: {fileID: 7257627937936081491}
+  m_Layer: 0
+  m_Name: AnimationEvents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7257627937936081488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7257627937936081489}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7257627937418223337}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7257627937936081491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7257627937936081489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb26d910f4e9acd4a949ea025e3f4204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
